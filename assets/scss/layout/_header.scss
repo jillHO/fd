@@ -1,0 +1,61 @@
+.header_index{
+    min-height: 100vh;
+  /* 定義本區塊為彈性容器 */
+    display: flex;
+    /* 定義彈性容器內副軸至中 */
+    align-items: center;
+    /* 定義彈性容器內為直列顯示 */
+    flex-direction: column;
+    /* 定義彈性容器內主軸至中 */
+    justify-content: center;
+   
+    background-image:url('/assets/images/head/back-ground-img.png');
+    // 讓背景定位完全置中對齊
+    background-position:center center;
+    // 讓背景尺寸自動填滿區塊
+    background-size:cover;
+}
+
+.header__title {
+  font-size: 5rem;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  color: rgba($color_white, 0.2);
+  
+  }
+
+  .header__container {
+    /* 設定本區塊的寬度最多為 600px */
+    max-width: 600px;
+    /* 定義內容文字顏色 */
+    color: rgb(238, 238, 238);
+    /* 設定內容文字顯示方式，center 為至中顯示 */
+    text-align: center;
+  }
+
+  .aboutheader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .header_news{
+    min-height: 30vh;
+  /* 定義本區塊為彈性容器 */
+    display: flex;
+    /* 定義彈性容器內副軸至中 */
+    align-items: center;
+    /* 定義彈性容器內為直列顯示 */
+    flex-direction: column;
+    /* 定義彈性容器內主軸至中 */
+    justify-content: center;
+    margin-bottom: 2rem;
+    background-image:url('/assets/images/slide/3.jpg');
+    // 讓背景定位完全置中對齊
+    background-position:center center;
+    // 讓背景尺寸自動填滿區塊
+    background-size:cover;
+}

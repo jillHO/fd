@@ -1,0 +1,61 @@
+*{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.index_box{
+    display: flex;
+    justify-content: center;
+    padding:5rem 0 1rem 0;
+    img{
+        height: 40rem;
+        
+    }
+}
+
+.index_box2{
+    font-size: 40px;
+    ul{
+        position: relative;
+        right:3rem;
+    }
+    h1{
+        font-size: 7rem;
+        color:#9bcaf0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    li{
+        margin-top:2.5rem;
+        font-size: 36px;
+        padding:1rem;
+        a{
+            text-decoration: none;
+            color:rgb(33, 173, 195);
+        }
+    }
+    li:hover{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    -webkit-backdrop-filter: blur(5.7px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition:0.3s;
+    }
+    
+
+}
+
+.index_box1{
+    overflow:hidden;
+    width:100vmin;
+    height:100vmin;
+   li {
+    width:100vmin;
+    height:100vmin;
+   }
+}
+
+

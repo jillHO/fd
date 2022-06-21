@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+
+
+
+// news
+.body-1{
+  height: 100%;
+	color: rgb(213, 213, 213);
+	background:rgba(241, 241, 241, 0.819);
+	background-repeat: no-repeat;
+  letter-spacing: 2px;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  background-color:white;
+}
+
+// about
+.body-2{
+  height: 100%;
+	color: rgb(213, 213, 213);
+	background:rgba(241, 241, 241, 0.819);
+	background-repeat: no-repeat;
+  letter-spacing: 2px;
+  font-family: 'Exo', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.5;
+  background:linear-gradient(to bottom,  #51A8DD,#006284,#000612);
+}
+
+// index
+.body-3{
+ background:linear-gradient(to bottom,  #f5f5dc,#006284,#000612);
+}

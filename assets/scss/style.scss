@@ -1,0 +1,33 @@
+*{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import 'base/reset';
+
+@import 'variable/color';
+
+@import 'mixin/flex-element';
+
+@import 'layout/navbar';
+@import 'layout/carousel';
+@import 'layout/body';
+@import 'layout/section';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/footer2';
+
+@import 'components/button';
+@import 'components/card';
+@import 'components/slide';
+
+
+
+
+
+
+
+

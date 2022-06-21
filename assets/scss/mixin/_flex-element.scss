@@ -1,0 +1,15 @@
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%inline-flex-center{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$flexSize: 15em;
+
+$boxSpacing: 1.8em;
